@@ -3,10 +3,9 @@ import time
 import datetime
 import subprocess
 import threading
-from winsdk.windows.ui.notifications import ToastNotificationManager, ToastNotification
-from winsdk.windows.data.xml.dom import XmlDocument
-import winsdk.windows.foundation as foundation
-
+from winrt.windows.ui.notifications import ToastNotificationManager, ToastNotification
+from winrt.windows.data.xml.dom import XmlDocument
+import winrt.windows.foundation as foundation
 # --- 全局变量 ---
 # 用于存储用户操作的变量 (例如 'snooze' 或 'ignore')
 user_action = None
